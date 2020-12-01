@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+   <div align="center"> <img th:src="@{/images/cropped-CodeHub-logo_320x132.png}" /></div>
+    <h1> Java Spring server demo by Codehub</h1>
+    <p> This spring server demonstrates the typical CRUD for the entities <b>employee</b> and <b>department</b>.
+        You may explore the api <a th:href="@{swagger-ui.html}">here</a>.
+    <br>
+        <img th:src="@{/images/db-diagram.png}" width="300"/>
+
+    </p>
+
+</div>
+</body>
+</html>
